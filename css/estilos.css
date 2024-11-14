@@ -1,0 +1,277 @@
+
+@font-face {
+    font-family: 'interRegular';
+    src: url(../fuentes/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'interSemi';
+    src: url(../fuentes/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Romanesco';
+    src: url(../fuentes/Romanesco-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-color: #A3A656;
+    align-items: center;
+    padding: 12px 0px 11px 0px;
+    font-size: 16px;
+    font-family: 'interRegular';
+}
+
+#menuSPA {
+    width: 80%;
+    padding-left: 15px;
+}
+
+header section ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+#menuSPA ul a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#menuSPA ul li {
+    display: inline;
+    /*li en linea*/
+    padding: 0px 15px;
+}
+
+#menuSPA ul li a:hover {
+    color: #ffff00;
+}
+
+
+#menuUsuario {
+    width: 20%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+#menuUsuario span:hover {
+   color: #ffff00;
+}
+
+.imagenUsuario {
+    font-size: 2.5rem;
+    padding-right: 10px;
+}
+
+.imagenFlecha {
+    padding: 0px 10px;
+    font-size: 1.3rem;
+}
+
+#idioma {
+    padding: 0px 10px 0px 45px;
+}
+
+#imagenFondo{
+    background-image: url('../images/main.png');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#textoFondo{
+    float: inline-start;
+    padding: 230px 0px 0px 220px
+}
+#textoFondo p{
+    font-family: 'Romanesco';
+    font-size: 96px;
+    font-weight: normal;
+    margin: 0;
+}
+#textoFondo h2{
+    font-family: 'interSemi';
+    font-weight: 100;
+    font-size: 32px;
+    
+}
+#citaDescuento{
+    display: flex;
+    justify-content: center;
+    padding: 23px 0px 22px 0px;
+    margin: none;
+    background-color: #f2f6f6;
+    font-family: 'interRegular' ;
+    font-size: 16px;
+}
+
+#citaDescuento input, span{
+    border-radius: 10px;
+    padding: 10px 25px;
+    border: none;
+}
+#citaDescuento input{
+    padding: 20px 0px 20px 0px;
+}
+#citaDescuento input::placeholder{
+    color: #9e9a9a;
+    padding-left: 15px;
+    font-size: 16px;
+}
+#cita{
+    width: 300px;
+}
+#productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100px 0px;
+}
+#productos div h2{
+    text-align: center;
+    font-family: 'interSemi';
+    font-size: 32px;
+    background-color: #a3a656;
+    color: #fff;
+    margin: 0px;
+    border-radius: 15px 15px 0px 0px;
+    padding: 20px 20px;
+}
+#productos div{
+    padding: 0px 67px;
+}
+#productos div p{
+    font-family: 'interRegular';
+    font-size: 14px;
+    font-weight: 500;
+}
+#productos div span{
+    font-family: 'interRegular';
+    font-size: 14px;
+    font-weight: 500;
+}
+.precio label{
+    font-weight: bold;
+    font-size: 32px;
+}
+#productos div span button{
+    border: none;
+    float: right;
+    background-color: #a3a656;
+    color: #fff;
+    padding: 10px;
+    width: 140px;
+    height: 45px;
+    font-weight: bold;
+    border-radius: 35px;
+}
+
+#productos div span button:hover{
+    background-color: #384001;   
+}
+
+
+#planes {
+    text-align: center;
+    background-color: #f2f6f6;
+    height: 750px;
+    padding-top: 20px;
+}
+#planes h1{
+    font-family: interRegular;
+    font-size: 32px;
+    padding-bottom: 50px;
+}
+#socios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#socios img{
+    padding: 25% 0 25% 0;
+}
+.imagenCorona{
+    border: 10px solid #384001;
+    border-radius: 50%;
+    width: 235px;
+    height: 235px;
+    background-color: #fff;
+}
+#socios div button{
+    border: none;
+    background-color: #a3a656;
+    color: #fff;
+    padding: 20px;
+    width: 250px;
+    font-weight: bold;
+    border-radius: 35px;
+} 
+#socios div button:hover{
+    background-color: #384001;
+}
+#socios div ul{
+  text-align: left;
+  font-family: interRegular;
+  font-size: 14px;
+}
+#socios div h2{
+    font-family: interSemi;
+    font-size: 32px;
+    margin: 0px;
+    padding-bottom: 20px;
+  }
+
+  footer {
+    width: 100%;
+    display: flex;
+    background-color: #384001;
+    align-items: center;
+    font-size: 16px;
+    font-family: 'interRegular';
+    height: 97px;
+}
+
+#footerSPA{
+    width: 80%;
+}
+
+#footerSPA  ul {
+    list-style-type: none;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footerSPA ul a {
+    text-decoration: none;
+    color: #A3A656;
+}
+
+#footerSPA ul li {
+    display: inline;
+    /*li en linea*/
+    padding: 0px 30px;
+
+}
+
+#footerSPA ul li a:hover {
+    color: #ffff00;
+}
+#redes{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}
+#redes:last-child{
+    padding-right: 50px;
+}
